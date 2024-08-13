@@ -1,0 +1,127 @@
+@media(max-width: 1160px){
+    .contactInfoContainer{
+        flex-direction: column;
+        height: 40%;
+    }
+
+    .contactContainer{
+        height: 100%;
+    }
+
+    .contact-links{
+        height: 50px;
+    }
+}
+
+
+@media (max-width: 1000px){
+    .heading-p-1, .heading-p-2{
+        font-size: 10rem;
+    }
+
+    .review-box-v2{
+        display: none;
+    }
+
+    .topbar{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .logo{
+        display: none;
+
+    }
+
+    .subtext{
+        max-width: 60%;
+
+    }
+
+    .container2{
+        width: 70%;
+        margin: 0;
+    }
+
+    .glass-card p{
+        display: none;
+    }
+
+    .glass-card{
+        flex-direction: column;
+    }
+
+    .glass-title-container{
+        margin-top: 5%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+    }
+
+    .glass-bottom-container{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .visit-button{
+        margin: 0px;
+        width: 50%;
+        height: 20%;
+        margin-bottom: 2%;
+    }
+
+    .Github-button{
+        margin: 0px;
+        width: 50%;
+        height: 20%;
+        margin-bottom: 5%;
+    }
+    
+    h1{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 530px){
+    .heading-p-1, .heading-p-2{
+        font-size: 8rem
+    }
+
+    .button-container{
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .Project-button{
+        margin-top: -15%;
+        padding: 16px 70px;
+        font-size: 1.5rem;
+    }
+
+    .Contact-button{
+        padding: 16px 70px;
+        font-size: 1.5rem;
+    }
+
+    .subtext{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        max-width: 70%; 
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+}
+
+@media (max-width: 1668px){
+    ::-webkit-scrollbar{
+        width: 0px;
+    }
+}
+
+@media (max-height: 750px){
+    .segment-2{
+        height: 200%;
+    }
+}
