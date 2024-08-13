@@ -1,1 +1,1 @@
-View under: anton-ullmann.netlify.app
+Click [here](https://anton-ullmann.netlify.app/) to view
