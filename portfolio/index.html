@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anton - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Anton</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certifications" class="nav-link">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#timeline" class="nav-link">Journey</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title"><span class="wave-emoji"><img src="wave.svg" alt="Waving hand"></span> Hi, I'm Anton</h1>
+                    <p class="hero-subtitle">Full-Stack Developer & Software Engineer</p>
+                    <p class="hero-description">
+                        Passionate about creating innovative solutions and building robust applications. 
+                        (If Stack Overflow went down, I’d go back to being a barista.)
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="character-container">
+                        <img src="character.png" alt="Character" class="character-svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I love building cool stuff. From web apps 
+                        to embedded systems.
+                    </p>
+                    <p>
+                        When I'm not fighting with git, you'll find me hitting the gym, 
+                        learning new languages, or probably breaking something in my latest 
+                        hardware project 😅.
+                    <div class="about-stats">
+                        <div class="stat bench-stat">
+                            <div class="bench-widget-background">
+                                <img src="bench.png" alt="Bench Press Widget Background">
+                            </div>
+                            <div class="bench-widget-content">
+                                <div class="bench-info">
+                                    <span class="bench-number">100kg</span>
+                                    <span class="bench-text">Bench Press PR</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat coffee-stat">
+                            <div class="coffee-widget-background">
+                                <img src="coffes.png" alt="Coffee Widget Background">
+                            </div>
+                            <div class="coffee-widget-content">
+                                <div class="coffee-info">
+                                    <span class="coffee-number">∞</span>
+                                    <span class="coffee-text">Coffes consumed</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat duolingo-stat">
+                            <a href="https://www.duolingo.com/profile/auch_andon" target="_blank" class="duolingo-link">
+                                <div class="duolingo-widget-background">
+                                    <img src="duolingo widget.png" alt="Duolingo Widget Background">
+                                </div>
+                                <div class="duolingo-widget-content">
+                                    <div class="duolingo-streak">
+                                        <span class="streak-number" id="duolingo-streak">100+</span>
+                                        <span class="streak-text">Duolingo Streak</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Flask</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQLite3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>Jinja2</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Systems Programming</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-microchip"></i>
+                            <span>C</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cogs"></i>
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-robot"></i>
+                            <span>Arduino</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>CS50 Certificate</h3>
+                        <p>Harvard University's Introduction to Computer Science</p>
+                        <a href="https://certificates.cs50.io/73c481fb-2953-48eb-ae40-fc7cb371fc8f.pdf?size=letter" class="certification-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Placeholder for future certifications -->
+                <div class="certification-card placeholder">
+                    <div class="certification-icon">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>More Coming Soon</h3>
+                        <p>Additional certifications will be added here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                                    <div class="project-image">
+                    <img src="blackout.png" alt="Bl8ck0ut Project">
+                    <div class="project-overlay">
+                        <a href="https://bl8ck0ut.netlify.app/" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                    <div class="project-content">
+                        <h3>Bl8ck0ut</h3>
+                        <p>Educational dual-ESP32 hardware project combining web interface control with RF signal transmission capabilities.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">ESP32</span>
+                            <span class="tech-tag">RF</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                <div class="project-image">
+                    <img src="streamed.png" alt="Streamed Project">
+                    <div class="project-overlay">
+                        <a href="https://github.com/8nt0n/streamed" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                    <div class="project-content">
+                        <h3>Streamed</h3>
+                        <p>A simple media server for videos with automated content management and web-based interface.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Media Server</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                                    <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=250&fit=crop&crop=center" alt="Plantera Project">
+                    <div class="project-overlay">
+                        <div class="construction-tape">
+                            <div class="tape-text">IN DEVELOPMENT</div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="project-content">
+                        <h3>Plantera</h3>
+                        <p>An exciting project currently in development. More details coming soon!</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline">
+        <div class="container">
+            <h2 class="section-title">My Journey</h2>
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2022</div>
+                        <div class="timeline-event">
+                            <img src="scratch.svg" alt="Scratch" class="event-heading">
+                            <p class="event-description">started getting into programming on <a href="https://scratch.mit.edu/users/Eldenshade/" target="_blank" class="highlight">scratch</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2023</div>
+                        <div class="timeline-event">
+                            <img src="python & github.svg" alt="Python & GitHub" class="event-heading">
+                            <p class="event-description">switched over to python and created my <a href="https://github.com/8nt0n/" target="_blank" class="highlight">github</a> account</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2024</div>
+                        <div class="timeline-event">
+                            <img src="cs50X.svg" alt="CS50X" class="event-heading">
+                            <p class="event-description">completed the <a href="https://certificates.cs50.io/73c481fb-2953-48eb-ae40-fc7cb371fc8f.pdf?size=letter" target="_blank" class="highlight">harvard computer science</a> class (cs50x)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2025</div>
+                        <div class="timeline-event">
+                            <img src="projects.svg" alt="CS50X" class="event-heading">
+                            <p class="event-description">build the projects <a href="https://github.com/8nt0n/streamed" target="_blank" class="highlight">Streamed</a>, <a href="#" target="_blank" class="highlight">Planterra</a> and <a href="https://bl8ck0ut.netlify.app/" target="_blank" class="highlight">Bl8ck0ut</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>Ullmann-Anton@web.de</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>github.com/8nt0n</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Germany, Dresden</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>placeholder for some epic footer text</p>
+                <div class="footer-social">
+                    <a href="https://github.com/8nt0n" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
